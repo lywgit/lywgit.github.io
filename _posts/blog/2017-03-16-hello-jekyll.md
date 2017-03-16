@@ -14,5 +14,5 @@ Recently, I decided to look into the possibility of organizing markdown notes ag
 
 The final kick is finding this [so-simple-theme](https://github.com/mmistakes/so-simple-theme) template to start my site with. It looks really nice, of course, and with the "Minimal embellishments" feature it claims I am hoping to tweak and customize it with less difficulty. It turns out the whole thing is still quite complicated (given my little knowledge of basic HTML, CSS, JavaScript). Fortunately, google is always your friend. 
 
-So, this is the first post and there is much to explore about Jekyll. At least I have get it to work, and \\(\LaTeX\\) seems to work, too : )  
+So, this is the first post and there is definitely much to explore about Jekyll. But at least the site does work (and \\(\LaTeX\\) works, too), so I am happy enough today : )  
    
