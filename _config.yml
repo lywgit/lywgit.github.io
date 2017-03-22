@@ -3,9 +3,8 @@
 title: Path
 locale: en_US
 description: Fumble & Build 
-logo: site-logo.png
+logo: my-site-logo.png
 search: true
-#url: http://localhost:4000
 url: https://lywgit.github.io
 
 # Jekyll configuration

@@ -1,11 +1,11 @@
 ---
-layout: page
-title: Customize Navigation Bar
+layout: post
+title: Customizing Navigation Bar
 categories: notes
 tags: jekyll
 ---
 
-## Customizing navigation bar
+## Adding a new category
 
 As explained in the [theme-setup](https://mmistakes.github.io/so-simple-theme/theme-setup/) page of so-simple-theme, one can edit `_data/navigation.yml` to add links to your top navigation bar. 
 

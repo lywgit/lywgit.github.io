@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: post
 title: Hello Jekyll
 category: blog
+tags: jekyll
 ---
 
-## Hello Jekyll
  
 I have been thinking about setting up a homepage/blog, but never decide how to do this. I have some requirements in mind but couldn't find a simple ideal solution. One of the difficult ones is LaTex support. A more abstract one is that I would like to keep the original note simple, better in pure text. 
 
