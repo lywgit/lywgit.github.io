@@ -20,14 +20,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lywgit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 # theme: minima
-remote_theme: "mmistakes/so-simple-theme"
+remote_theme: "mmistakes/so-simple-theme" 
 plugins:
   - jekyll-feed
 
