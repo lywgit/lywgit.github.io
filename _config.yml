@@ -34,9 +34,17 @@ google_fonts:
 # Search
 search_full_content: true
 
-# twitter_username: 
-github_username:  lywgit
+# Site Author
+author:
+  name: Liang-Yao Wang (王亮堯)
+  links:
+    - title: GitHub
+      url: https://github.com/lywgit
 
+# Footer Links
+footer_links:
+  - title: GitHub
+    url: https://github.com/lywgit
 
 # Build settings
 markdown: kramdown

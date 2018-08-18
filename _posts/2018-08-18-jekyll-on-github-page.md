@@ -1,14 +1,11 @@
 ---
 title: Hosting Jekyll Site on Github-Page 
-categories: jekyll
+categories: note jekyll  
 tags: jekyll
 ---
 
-## Reference
+On Auguts 6 2018, I come back to the idea of using Jekyll to setup a site to host some of my notes. Both jekyll and the so-simple-theme have evolved since I first used them on March 2017. I therefore decide to build the site again with the updated theme.
 
-* [Jekyll home](https://jekyllrb.com/docs/home/)
-* [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
-* [mmistakes/so-simple-theme](https://github.com/mmistakes/so-simple-theme)
 
 ## Github-Page 
 
@@ -28,9 +25,10 @@ $ sudo gem install bundler jekyll
 Start a fresh site
  
 ```console
-# cd into working directory
+# cd into the working directory
 $ jekyll new .
 ```
+Note the final `.` (current directory).
 
 ### Setup for the so-simple-theme
 
@@ -43,21 +41,31 @@ Check out [so-simple-theme](https://github.com/mmistakes/so-simple-theme) and fo
     * Comment out: `theme: minima` 
     * Add `remote_theme: "mmistakes/so-simple-theme"`
 
-At this time, pushing the content to github should successfully generate a page.
+At this time, the content is enough for github to generate a page. 
 
 
 ## Serving locally with Jekyll
 
-Serve and view the site locally
+It is probably necessary to update gem when running for the fisrt time
+ 
+```console 
+$ sudo bundle update
+```
+
+Afterward, should be able to serve and view the site locally
 
 ```console
-bundle exec jekyll serve
+$ bundle exec jekyll serve
 ```
 And then go to [http://localhost:4000/](http://localhost:4000/) with a browser.
 
-This will probably fail when running for the fisrt time. Update gem and thing should work out.
+## 
 
-```console 
-sudo bundle update
-```
 
+
+
+## Reference
+
+* [Jekyll home](https://jekyllrb.com/docs/home/)
+* [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
+* [mmistakes/so-simple-theme](https://github.com/mmistakes/so-simple-theme)
