@@ -1,7 +1,7 @@
 ---
 title: Customizing Navigation Bar
 layout: post
-categories: notes
+categories: blog
 tags: jekyll
 ---
 
@@ -36,3 +36,12 @@ One may notice that there are subdirectories under _posts/, such as articles/ an
 ### In short 
 
 If you use `categories: abc` for a post, the corresponding page will be generated and found under "https://lywgit.github.io/abc/article\_name". Whether you have ever created a directory called abc/ under your main project or under your _post/ directory does not matter. You just need to make sure that the navigation link setup (the url in `_data/navigation.yml`) is consistent with the category name in the front matter of a post. 
+
+
+---
+
+<h3 style="color:brown"> Update (2018-10-04) </h3> 
+
+See [post-url-generated-by-jekyll]({% post_url 2018-10-04-post-url-generated-by-jekyll %}) for an update on the url stuff.  
+
+

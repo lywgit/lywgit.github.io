@@ -1,6 +1,6 @@
 ---
 title: Hosting Jekyll Site on Github-Page 
-categories: note jekyll  
+categories: blog
 tags: jekyll
 ---
 
