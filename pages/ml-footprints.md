@@ -9,7 +9,7 @@ permalink: /ml-footprints.html
 
 ## Taiwan AI Academy 
 
-* [Taiwan AI Academy](http://aiacademy.tw/) Technical Leader Class, Taipei, March - May 2018（台灣人工智慧學校，[技術領袖班第一期](http://aiacademy.tw/admission-tech-tp1/)）
+* [Taiwan AI Academy](http://aiacademy.tw/) Technical Leader Program, Taipei, March - May 2018（台灣人工智慧學校，[技術領袖班第一期](http://aiacademy.tw/admission-tech-tp1/)）
     * Receive lectures on a variety of machine learning topics including traditional ML (regression, classification, clusrering) and deep learning (NN, RNN, CNN, RL, etc).
     * Hands-on experience in python (pandas, scikit-learn, tensorflow, keras), as well as data science competitions.
     * Participate in IBM x FET AI Contest held during the school. Team won the 1st place.

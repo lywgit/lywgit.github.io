@@ -9,7 +9,7 @@ Knowing how Jekyll forms the url for you makes it easier to work with.
 
 ## Posts categories and permalink
 
-To publish a jekyll post, you put it under the directly `_posts/`, which is automatically recognized by Jekyll. It is mandatory that the file name has the format `yyyy-mm-dd-post-name.md`, so it can be used to generate the associated post url.
+To publish a jekyll post, you put it under the directory `_posts/`, which is automatically recognized by Jekyll. It is mandatory that the file name has the format `yyyy-mm-dd-post-name.md`, so it can be used to generate the associated post url.
 
 For example, the markdown file of this page is **2018-10-04-post-url-by-jekyll.md** (under `_posts/`), which should show up as a page at *my-host-name***/2018/10/04/post-url-by-jekyll.html**. 
 
@@ -23,7 +23,7 @@ Post front matter  |  Post URL (omitting host-name)
 `permalink: /pl/`    | /**pl**/2018/10/04/article-name.html
 `permalink: /pl/pl/` | /**pl/pl**/2018/10/04/article-name.html
 
-1. When "permalink" is set, "categories" no longer changes the url. (But the categories are still active. 
+1. "permalink" dominates when is set, in which case "categories" no longer affects the url (The category setting still works, but is not reflected in the url). 
 2. "tags" does not change the url. 
 3. The directory structure under `_post/` does not change the url (even when both categories and permalink are not present.) 
 

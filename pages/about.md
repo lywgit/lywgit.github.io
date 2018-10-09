@@ -21,6 +21,16 @@ As a person who enjoy learning, reasoning, and understanding stuff, machine lear
 * Ph.D., Astrophysics, National Taiwan University (2018)
 * Master, Astrophysics, National Taiwan University (2010) 
 * Bachelor, Physics, National Taiwan University (2008)
+
+## Experience
+
+* Research Assistant, Institute of Astronomy and Astrophysics, Academia Sinica (2018) 
+* Student, Taiwan AI Academy Technical Leader Program (2018)
+* Visiting Research Student, UC Berkerly, USA (2015-2016) 
+    * (Supported by Graduate Student Study Abroad Program, MoST, Taiwan)  
+* Teaching Assistant, General Physics Laboratory, National Taiwan University (2013-2015)
+* Summer Student, Institute of Astronomy and Astrophysics, Academia Sinica (2007)
+
  
 ## Skills
 
@@ -30,7 +40,7 @@ As a person who enjoy learning, reasoning, and understanding stuff, machine lear
 * Tools: numpy, pandas, scikit-learn, tensorflow  
 * Others: \\(\LaTeX\\), R
  
-## CV 
+## More 
 
 * Academic activities in *Astrophysics*: [CV (Astro)](/cv-astro). 
 * Efforts toward *Machine Learning & Data Science*: [Learning ML](/ml-footprints).
