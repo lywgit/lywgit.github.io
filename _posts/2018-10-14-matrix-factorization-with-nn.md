@@ -13,4 +13,8 @@ What is the difference between
 (1) a matrix that is ramdomly generated, and 
 (2) a matrix that is a product of two randomly generated matrices?
 
-Well, the latter is probably less random ... but in what way? Check out [this simple exploration](https://github.com/lywgit/deep-learning-exercise/tree/master/matrix_factorization) if you wich. 
+Well, the latter is probably less random ... but in what way? 
+
+It turns out that they can behave differently in the matrix factorization problem because the former has no hidden structure but the latter does. A larger capacity model is needed to fit the former data than the latter.
+
+Check out my exploration [here](https://github.com/lywgit/deep-learning-exercise/tree/master/matrix_factorization) if you wish. 
