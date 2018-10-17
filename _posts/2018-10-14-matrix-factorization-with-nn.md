@@ -10,8 +10,8 @@ Approaching the problem of matrix factorization from a neural network point of v
 Exploring this as an exercise actually led me to another interesting question: 
 >
 What is the difference between
-(1) a matrix that is ramdomly generated, and 
-(2) a matrix that is a product of two randomly generated matrices?
+(1) a matrix that is randomly generated, and 
+(2) a matrix that is the product of two matrices that are randomly generated?
 
 Well, the latter is probably less random ... but in what way? 
 
