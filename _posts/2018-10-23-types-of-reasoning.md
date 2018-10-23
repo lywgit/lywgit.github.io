@@ -1,7 +1,7 @@
 ---
 title: 演繹與歸納 
 category: blog
-tag: [logic, language]
+tag: [logic, language, zh]
 ---
 
 
