@@ -39,7 +39,7 @@ tag: [network-architecture, reinforcement-learning, zh]
 * 讓機器自行搜尋好的神經網路模型架構（自動化）。
 * 可以找出較不受限於人類思考框架的架構。
 
-## 其他觀念
+## 其他概念
 
 #### Controller 
 
@@ -49,7 +49,7 @@ tag: [network-architecture, reinforcement-learning, zh]
     * 因為沒辦法微分，必須使用 policy gradient。採用 the REINFORCE rule from Williams (1992) 
 \\[ \nabla_{\theta_c} J(\theta_c) = \sum_{t=1}^T E_{P(a_1:a_T;\theta_c)}[\nabla_{\theta_c} \log(P(a_t|a_{(t-1):1};\theta_c) R ]  \\] 
 
-#### Skip connection (CNN)
+#### Skip connection CNN
 
 * 在每個 layer 插入 anchor point，用 set-selection attention 來決定每一層（的 anchor）是否要和之前任一層（的 anchor）形成輸入關係。如果有許多輸入層，則往深度方向疊起來作為 input。
 * 遇到輸入層間不相容或是沒有輸入、輸出層時的規則：
@@ -64,7 +64,7 @@ tag: [network-architecture, reinforcement-learning, zh]
     2. activation method：{`identity`,`tanh`, `sigmoid`,`relu` etc.}
 * 效法 LSTM 額外有 memory state 的架構要決定。
  
-#### Controll experiment
+#### Control experiment
 
 * 和 Random search 比較，policy gradient 確實更有效率的找到好的網路架構。
  
