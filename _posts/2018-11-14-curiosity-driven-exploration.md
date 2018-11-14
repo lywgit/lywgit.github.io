@@ -81,8 +81,8 @@ tag: [reinforcement-learning, curiosity, self-supervised-learning, zh]
 
 #### Self-supervised Prediction 是什麼意思？
 
-* Self-supervised learning 其實就是一種監督是學習，差別在於一般 supervised learning 使用的答案通常是額外人工標記的，而自監督是學習是直接使用 input 內隱含的脈絡資訊或是關聯性來作為指導訊號進行監督式學習。
-* 本文裡 Self-supervised prediction 指的應該是 inverse dynamics model 學習預測 action 時，正確答案（採取的 action）是在問題的脈絡中自然存在的，也就不需額外人工標記的。
+* Self-supervised learning 其實就是一種監督式學習，差別在於一般 supervised learning 使用的答案通常是額外人工標記的，而自監督式學習是利用 input 內隱含的脈絡資訊或是關聯性作為指導訊號來進行監督式學習。
+* 本文裡 Self-supervised prediction 指得應該是 inverse dynamics model 學習預測 action 時，正確答案（採取的 action）是自然存在脈絡中、不需額外人工標記的。
 * 參考：[What is Self-Supervised Learning?](https://hackernoon.com/self-supervised-learning-gets-us-closer-to-autonomous-learning-be77e6c86b5a)
 
 #### ICM：一些細節
