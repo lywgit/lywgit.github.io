@@ -29,14 +29,9 @@ I have authored three coding projects to meet the need of my own research. They 
 
 *Published*
 
-1. *A Two-Temperature Model of Magnetized Protostellar Outflows*/ The Astrophysical Journal, 2015, 815:39 (12pp) / *L.-Y. Wang*, H. Shang, R. Krasnopolsky, T.-Y. Chiang. [[ADS link]](http://adsabs.harvard.edu/abs/2015ApJ...815...39W)
-2. *Molecular Jet of IRAS 04166+2706*/ The Astrophysical Journal, 2014, 780:49 (14pp) / *L.-Y. Wang*, H. Shang, Y.-N. Su, J. Santiago-García, M. Tafalla, Q. Zhang, N. Hirano, C.-F. Lee   [[ADS link]](http://adsabs.harvard.edu/abs/2014ApJ...780...49W) 
-
-*In Prep*
-
-1. *Ejection History of IRAS 04166+2706 Molecular jet* / *L.-Y. Wang*, H. Shang, T.-Y. Chiang
-2. *Synthetic Observations of Youngest Protostellar Outflows* / *L.Y. Wang*, H. Shang   
-
+1. *Ejection History of IRAS 04166+2706 Molecular jet* / The Astrophysical Journal, 2019, 874:31 (12pp)/ *L.-Y. Wang*, H. Shang, T.-Y. Chiang [[ApJ link]](https://iopscience.iop.org/article/10.3847/1538-4357/ab07b5)
+2. *A Two-Temperature Model of Magnetized Protostellar Outflows* / The Astrophysical Journal, 2015, 815:39 (12pp) / *L.-Y. Wang*, H. Shang, R. Krasnopolsky, T.-Y. Chiang. [[ADS link]](http://adsabs.harvard.edu/abs/2015ApJ...815...39W)
+3. *Molecular Jet of IRAS 04166+2706*/ The Astrophysical Journal, 2014, 780:49 (14pp) / *L.-Y. Wang*, H. Shang, Y.-N. Su, J. Santiago-García, M. Tafalla, Q. Zhang, N. Hirano, C.-F. Lee   [[ADS link]](http://adsabs.harvard.edu/abs/2014ApJ...780...49W) 
 
 *Participated*
 
