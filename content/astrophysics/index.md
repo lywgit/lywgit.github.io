@@ -2,11 +2,12 @@
 title = 'Astrophysics'
 showDate = false
 showReadingTime = false
-showAuthor = false
+showAuthor = true
 showPagination = false
-layout = 'simple'
+#layout = 'simple'
 +++
 
+I studied outflows in the star formation process.
 
 ![projects](astro_projects.png)
 

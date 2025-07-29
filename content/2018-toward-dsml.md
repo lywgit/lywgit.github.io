@@ -2,9 +2,12 @@
 title = 'Toward Data Science & Machine Learning'
 showDate = false
 showReadingTime = false
+showPagination = false
 +++
 
-Toward Data Science and Machine Learning
+Near the end of my PhD study (2018), I decided to learn more about data science and machine learning.
+Below is a summary of the effort at that period.
+
 
 
 ## Taiwan AI Academy 

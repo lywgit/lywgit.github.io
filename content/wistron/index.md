@@ -2,9 +2,13 @@
 title = 'DS-ML Projects'
 showDate = false
 showReadingTime = false
-layout = 'simple'
+showPagination = false
+# layout = 'simple'
 +++
 
-An overview of projects I participated at Wistron Corporation (2018-2024).
+I have worked at Wistron corporation from 2018 to 2024 as a software engineer.
+Our team focused on implementing ML/AI solutions for domain users of the company. 
+
+This figure shows an overview of the projcts I have participated in:
 
 ![projects](wistron_projects.png)
