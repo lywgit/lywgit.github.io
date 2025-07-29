@@ -1,0 +1,9 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+/data/cache/ 
+
+# Local development files
+.hugo_build.lock
+.DS_Store
+.vscode/
