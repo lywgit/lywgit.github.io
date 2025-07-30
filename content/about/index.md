@@ -13,7 +13,7 @@ I received my Ph.D degree in astrophysics from National Taiwan University (NTU) 
 
 Near the end of my Ph.D study, I decided to explore the path of machine learning and data science. I went on to work in Wistron corporation as a software engineer and contributed to a variety of machine learning related projects between 2018 and 2024. My interests in software development in general has also grown during this period. 
 
-In 2025, I am building up diskills using resources like leetcode, Boot.dev etc.
+In 2025, I am building up new skills using resources like leetcode, Boot.dev etc.
 
 
 ## Education
