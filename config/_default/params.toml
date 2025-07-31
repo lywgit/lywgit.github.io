@@ -33,7 +33,7 @@ fingerprintAlgorithm = "sha256"
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = true
+  showRecent = false
   recentLimit = 5
 
 [article]
@@ -59,7 +59,7 @@ fingerprintAlgorithm = "sha256"
   showBreadcrumbs = false
   showSummary = false
   showTableOfContents = false
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = true
   paginationWidth = 1
 
