@@ -7,9 +7,10 @@ showPagination = false
 #layout = 'simple'
 +++
 
-I studied outflows in the star formation process.
+My research is about understanding molecular outflows in the star formation process.
+Comparing numerical simulation with oversvational data through synthetic imaging.
 
-![projects](astro_projects.png)
+![projects](astro_projects.png "Astrophysics research <br> (Right click, Open Image in New Tab to view original-size image)")
 
 ## Activities
 
@@ -33,7 +34,7 @@ I studied outflows in the star formation process.
 
 ## Conference Contribution
 
-### Oral
+**Oral**
  
 1. [2017.07] Synthetic Features of Protostellar Outflows / Asia-Pacific Regional IAU Meeting (APRIM); Taipei, Taiwan
 2. [2016.05] A Two-temperature Model of Magnetized Protostellar Outflows / Annual Meeting 2016, Astronomy Society of R.O.C. (ASROC); Tainan, Taiwan
@@ -41,7 +42,7 @@ I studied outflows in the star formation process.
 4. [2013.01] Molecular jet of IRAS 04166+2706 / Annual Meeting 2013, Physics Society of R.O.C.; Hualien, Taiwan
 5. [2012.05] Molecular jet of IRAS 04166+2706 / Annual Meeting 2012, Astronomy Society of R.O.C. (ASROC); Taitun, Taiwan
 
-### Poster
+**Poster**
 
 1. [2016.07] A Two-temperature Model of Magnetized Protostellar Outflows (poster) / Star Formation in Different Environment; Qui Nhon, Vietnam 
 2. [2012.03] Molecular jet of IRAS 04166+2706 / ALMA/NAASC 2012 Workshop: Outflows, Winds, and Jets; Charlottesville, Virginia, U.S.A. 

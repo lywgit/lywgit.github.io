@@ -1,7 +1,7 @@
 +++
 date = '2018-10-14T00:00:00+08:00'
 title = 'Matrix Facorization with NN'
-tags = ['ml', 'code']
+tags = ['ml']
 +++
 
 
