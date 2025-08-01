@@ -4,7 +4,7 @@ title = 'Jekyll on Github Page'
 tags = ['tech', 'jekyll']
 +++
 
-On Auguts 6 2018, I come back to the idea of using Jekyll to setup a site to host some of my notes. Both jekyll and the so-simple-theme have evolved since I first used them on March 2017. I therefore decide to build the site again with the updated theme.
+On Augusts 6 2018, I come back to the idea of using Jekyll to setup a site to host some of my notes. Both jekyll and the so-simple-theme have evolved since I first used them on March 2017. I therefore decide to build the site again with the updated theme.
 
 
 ## Github-Page 
@@ -13,7 +13,7 @@ Follow instruction on [the site](https://pages.github.com/) to create a reposito
 
 ## Install Jekyll
 
-Follow instruction on [Jekeyll installation page](https://jekyllrb.com/docs/installation/). Will need `sudo`.
+Follow instruction on [Jekyll installation page](https://jekyllrb.com/docs/installation/). Will need `sudo`.
 
 ```console
 $ sudo gem install bundler jekyll
@@ -32,11 +32,11 @@ Note the final `.` (current directory).
 
 ### Setup for the so-simple-theme
 
-Check out [so-simple-theme](https://github.com/mmistakes/so-simple-theme) and follow the part of howting on github-page.
+Check out [so-simple-theme](https://github.com/mmistakes/so-simple-theme) and follow the guides on github-page.
 
-1. Edit Gemfile (follow the intruction in the file): 
+1. Edit Gemfile (follow the instruction in the file): 
     * Comment out: `gem "jekyll", "~> 3.8.3"`
-    * Uncoment: `gem "github-pages", group: :jekyll_plugins`
+    * Uncomment: `gem "github-pages", group: :jekyll_plugins`
 2. Edit _config.yml: 
     * Comment out: `theme: minima` 
     * Add `remote_theme: "mmistakes/so-simple-theme"`
@@ -46,7 +46,7 @@ At this time, the content is enough for github to generate a page.
 
 ## Serving locally with Jekyll
 
-It is probably necessary to update gem when running for the fisrt time
+It is probably necessary to update gem when running for the first time
  
 ```console 
 $ sudo bundle update

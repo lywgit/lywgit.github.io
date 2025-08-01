@@ -25,7 +25,7 @@ tags = ['read', 'ml', 'zh']
 
 #### 三、方法
 
-* 神經網路的架構（各種 hyperparameters）可以用長度不等的一連串 token 表示，使用一個 RNN 作為 controller 負責產生這些 token，就可以建立出對應的子模型。
+* 神經網路的架構（各種 hyperparameter）可以用長度不等的一連串 token 表示，使用一個 RNN 作為 controller 負責產生這些 token，就可以建立出對應的子模型。
 * 子模型在 training data 上訓練，並在 validation data 上計算 accuracy。
 * 以此 accuracy 作為 reward，讓 controller 用 policy gradient 的方法學習（更新自己的參數 \\(\theta_c\\)），使下一次有更高機會產生更好的架構。  
  

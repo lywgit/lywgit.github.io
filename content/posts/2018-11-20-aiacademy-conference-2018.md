@@ -42,8 +42,8 @@ tags = ['event', 'ml', 'zh']
     * Optical flow
 * CNN
     * predict optical flow: flownet
-    * 直接 predict intermediat frame DVFlow Liu ICCV17 
-        * 缺點: 容易有 artifact 或模糊（oversmooth），因為 L1 L2 loss 對 smooth 圖容忍大
+    * 直接 predict intermediate frame DVFlow Liu ICCV17 
+        * 缺點: 容易有 artifact 或模糊（over smooth），因為 L1 L2 loss 對 smooth 圖容忍大
 * 提出 cycle consistency checking
     * cycle loss
     * cycle + motion linearity loss(假設短時間linear motion) 
@@ -66,7 +66,7 @@ tags = ['event', 'ml', 'zh']
     * 讓我們知道模型是不是真的在看我們看的 signal
     * [GitHub 連結](https://github.com/slundberg/shap), [arXiv 1705.07874](https://arxiv.org/pdf/1705.07874.pdf)
         * 應用：data 不同型態都可以，但模型不一定： xgboost CNN 可以 LSTM 目前不行 
-* Explainable AI is importat in Medial AI 
+* Explainable AI is important in Medial AI 
 
 * Q&A： 需要多少訓練樣本？
     * 眼睛就差不多看得出來的話，約 1000 筆就可以做到還可以。
@@ -79,9 +79,9 @@ tags = ['event', 'ml', 'zh']
 * Watson 剪預告片 AI movie trailers
     * 電影公司雖然請你做這件事，但也不會願意就給你所有的 data，不是把他所有 movie + trailer 拿來訓練就好
 * 很多創意來自員工，不是老闆
-* AI: augmented intellegence
+* AI: augmented intelligence
 * 人臉辨識問題：低解析度、面具、墨鏡、化妝
-    * superresolution, face hallucination and recognition
+    * super-resolution, face hallucination and recognition
     * 加上 super-identity loss, super-pixel loss
 * VR 看鞋子在人身上 Chou et al ACCV 18 （將發表）
 * 空拍機即時計算車輛：[Drone-based Object Counting by Spatially Regularized Regional Proposal Network](https://arxiv.org/abs/1707.05972)
@@ -89,7 +89,7 @@ tags = ['event', 'ml', 'zh']
     * **Impact 來自顧客需求**
     * 產品發展和研究不可分
 * How to get quality data in an effective and efficient way
-    * data crawing
+    * data crawling
     * (weakly) semi-supervised
     * data augmentation
         * *幫人臉資料戴眼鏡後再 train 幫助很大*。
@@ -105,7 +105,7 @@ tags = ['event', 'ml', 'zh']
     2. smart (Big data)
     3. autonomous (AI)
 * Intel 轉定位自己在資料運算
-* by 2021, 82% IP traffic will be vedio
+* by 2021, 82% IP traffic will be video
 * OpenVINO：跨framework開發工具，同樣開發一討軟體可放在所有 intel CPU 平台上面
     * edge 端可以有不同強度的硬體 offer: cpu gpu fpga   
 * ecosystem 下接硬體廠商，上接雲端
@@ -158,7 +158,7 @@ tags = ['event', 'ml', 'zh']
     
 ### *張寅建* / IBM 雲端事業部雲端資深顧問
 
-* IA: Information Archetecture
+* IA: Information Architecture
 * 沒有 IA 哪來 AI
 
 

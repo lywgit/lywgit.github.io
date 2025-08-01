@@ -11,7 +11,7 @@ tags = ['read', 'ml', 'zh']
 
 | 文章 |     |
 |-----|-----|
-| 標題 | Learning to Learn: Meta-Critic Networks for Sample Efficient Learning |  
+| 標題 | Learning to Learn: Meta-Critic Networks for Sample Efficient Learning |  
 | 作者 | Flood Sung, Li Zhang, Tao Xiang, Timothy Hospedales, Yongxin Yang (2017) |
 | 連結 | [arXiv:1706.09529](https://arxiv.org/abs/1706.09529) |
 
@@ -30,7 +30,7 @@ tags = ['read', 'ml', 'zh']
 
 #### 三、方法
 
-* 傳統 critic（一個價值網路）只考慮 state 和 action，現使用一個跨工作的 meta-critic 並把當下 learning tracde 也當作輸入資訊以供區別。
+* 傳統 critic（一個價值網路）只考慮 state 和 action，現使用一個跨工作的 meta-critic 並把當下 learning trace 也當作輸入資訊以供區別。
 * meta-critic 由兩個 network 組成：
     1. Meta-Value Network（MVN, or value net）：以MLP實作的價值網路。讓 actor 據此調整其行動策略 policy。
     2. Task-Actor Encoder Network（TAEN, or task net）：以 LSTM 實作的 encoder。輸入一系列的學習歷史 (state, action, reward) triplets，輸出 embedded feature 給 MVN 使用 。由於各種問題都會有 state, action, reward，不會限神經網路使用的構運。
@@ -38,7 +38,7 @@ tags = ['read', 'ml', 'zh']
 #### 四、結果
 
 1. SL：在人工合成的 \\(a\sin(x+b)\\) 與 \\(cx+d \\) 函數集資料上作 Regression 問題（ground truth函數皆為sine 和 linear，但不同 task 的 \\(a,b,c,d\\) 不同）。meta-learning 在此對應到的是學會 sine 函數及直線的一班特性。 
-    * 訓練好的 meta-critic 在測試函數上能夠從很少筆資料點（例如 4-shot）估計出接近 gound truth 的 \\(a,b,c,d\\)，表示 meta-training 時確實有學到東西。 
+    * 訓練好的 meta-critic 在測試函數上能夠從很少筆資料點（例如 4-shot）估計出接近 ground truth 的 \\(a,b,c,d\\)，表示 meta-training 時確實有學到東西。 
 2. RL：在 Cartpole Control 問題上，使用 meta-critic 學習得更快（reward 的進步 per training episode 更高），最終測試中的 success rate 也比其他方法高出許多。
     * 有趣的是 TAEN 的 embedding \\(z\\) 顯示 meta-critic 學會的區別可以對應到不同長度的 pole length，這並不是 actor 和 critic 知道的資訊！
  
@@ -55,14 +55,14 @@ tags = ['read', 'ml', 'zh']
 * actor（參數 \\(\theta\\)）根據 state 輸出 action \\(a_t = P_\theta(s_t)\\)
     * 訓練方式：maximize output of critics
 * critic（參數 \\(\phi\\)） 估計 state-action 未來的回報（expected discount reward）
-    * 訓練方式：minimise the temporal difference error
+    * 訓練方式：minimize the temporal difference error
 * 更新方式：
     * \\( \theta \leftarrow \underset{\theta}{\arg\max} \ Q_\phi(s_t,a_t) \\)
     * \\( \phi \leftarrow \underset{\phi}{\arg\min} \ \left( Q_\phi(s_t,a_t) - r_t  -\gamma Q_\phi(s_{t+1},a_{t+1}) \right)^2 \\)
     
 *Meta-Critic MVN + TAEN 的架構*
 
-* critc 本來只以 state 和 action 為 input，現在加入 task-actor encoding network (TAEN) \\(C_\omega\\)（參數 \\(\omega\\)） 來產生學習軌跡的 embedding \\(z_t = C_\omega(L^t_{t-k}) \\)；\\(L\\) 是 actor 的 *learning trace*
+* critic 本來只以 state 和 action 為 input，現在加入 task-actor encoding network (TAEN) \\(C_\omega\\)（參數 \\(\omega\\)） 來產生學習軌跡的 embedding \\(z_t = C_\omega(L^t_{t-k}) \\)；\\(L\\) 是 actor 的 *learning trace*
     * \\( L^t_{t-k} =[(s_{t-k}, a_{t-k}, r_{t-k}), (s_{t-k+1}, a_{t-k+1}, r_{t-k+1}), \dots, (s_{t-1}, a_{t-1}, r_{t-1})] \\)
         * 透過 reward 知道關於 task 的資訊，透過 state, action 知道 actor 的資訊。
 * 更新方式（每 \\(M\\) 個 task 為一組 mini-batch，更新一次 meta-critic 參數）：
@@ -89,7 +89,7 @@ tags = ['read', 'ml', 'zh']
 
 |     | 訓練 | 資料 | 
 |------|------|----|
-| (i) Meta-trainging | meta-critics + actors | 許多 source tasks <br/> 許多資料點 / 多次數環境互動 |
+| (i) Meta-training | meta-critics + actors | 許多 source tasks <br/> 許多資料點 / 多次數環境互動 |
 | (ii) Meta-testing | actors | new tasks <br/> 少數資料點 / 少次數的環境互動  | 
 | (iii) Final testing | 無 (僅評估 actor 的能力) | (same) new tasks  <br/> 足夠評分 |
 
@@ -111,7 +111,7 @@ tags = ['read', 'ml', 'zh']
 ## 小記
 
 1. 概念上是用一個 meta-learner 去學特定一類的問題的共通知識。學會的知識存在 MVN 和 TAEN 中。
-2. 和 MAML（Model-agnostic meta-learning for fast adaptation of deep networks）的作法有相似之處，但使用 RL 框架下的 crtic 具有更不受限於問題的 prior distribution 的好處。
+2. 和 MAML（Model-agnostic meta-learning for fast adaptation of deep networks）的作法有相似之處，但使用 RL 框架下的 critic 具有更不受限於問題的 prior distribution 的好處。
 3. 特色："Learning to supervise" rather than "learning to synthesize" 
 
 ### 待理解

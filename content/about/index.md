@@ -7,24 +7,23 @@ showAuthor = true
 +++
 
 
-I am Liang-Yao Wang 王亮堯
+Hi, I am Liang-Yao Wang 王亮堯
 
-I received my Ph.D degree in astrophysics from National Taiwan University (NTU) at 2018. Prior to that I completed a master degree in astrophysics and majored in Physics as undergraduate, also in NTU. 
+I received my Ph.D. in Astrophysics from National Taiwan University (NTU) in 2018. Prior to that, I completed a Master's degree in Astrophysics and earned my undergraduate degree in Physics, both also from NTU.
 
-Near the end of my Ph.D study, I decided to explore the path of machine learning and data science. I went on to work in Wistron corporation as a software engineer and contributed to a variety of machine learning related projects between 2018 and 2024. My interests in software development in general has also grown during this period. 
+Near the end of my Ph.D. studies, I decided to explore the fields of machine learning and data science. From 2018 to 2024, I worked as a software engineer at Wistron Corporation, where I contributed to a variety of machine learning-related projects. During this time, my interest in software development more broadly also grew.
 
-In 2025, I am building up new skills using resources like leetcode, Boot.dev etc.
+In 2025, I have been actively building new skills through platforms like LeetCode and Boot.dev.
 
+## Activity Summaries
+
+- [2012 ~ 2018] Academic research in Astrophysics - [Astrophysics](/astrophysics). 
+- [2018] Transition toward Data Science & Machine Learning - [Toward ML](/2018-toward-dsml).
+- [2018 ~ 2024] Software engineer at Wistron Corporation - [DS/ML Projects](/wistron).
+- [2025] Building software developer skills - [SW Developer skills](/2025-software-skills)
 
 ## Education
 
 * Ph.D., Astrophysics, National Taiwan University (2018)
 * Master, Astrophysics, National Taiwan University (2010) 
 * Bachelor, Physics, National Taiwan University (2008)
- 
-## Activities
-
-- [2012 - 2018] Academic activities in Astrophysics - [Astrophsics](/astrophysics). 
-- [2018] Transition toward Data Science & Machine Learning - [toward ML](/2018-toward-dsml).
-- [2018 - 2024] Software engineer at Wistron Corporation - [DS/ML Projects](/wistron).
-- [2025 - Current]: Self development and skill building

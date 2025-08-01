@@ -30,7 +30,7 @@ Note the line `{%raw%}{% for post in site.categories.notes %}{%endraw%}` will no
 
 ### The article address
 
-One may notice that there are subdirectories under _posts/, such as articles/ and blog/. So do these directory names decide the link of each posts? It turns out not. The directory name here does not affect the article address in the generated site. The address is decided by the `permalink` variable in `_congif.yml`. By default this is `permalink: /:categories/:title/`, so the post address is generated according to the category and the title (and the site url, to be precise). Therefore as long as the front matter says `categories: notes`, it will be under "https://lywgit.github.io/notes/", regardless of the substructure under your `_post/` directory. 
+One may notice that there are subdirectories under _posts/, such as articles/ and blog/. So do these directory names decide the link of each posts? It turns out not. The directory name here does not affect the article address in the generated site. The address is decided by the `permalink` variable in `_config.yml`. By default this is `permalink: /:categories/:title/`, so the post address is generated according to the category and the title (and the site url, to be precise). Therefore as long as the front matter says `categories: notes`, it will be under "https://lywgit.github.io/notes/", regardless of the substructure under your `_post/` directory. 
 
 ### In short 
 
