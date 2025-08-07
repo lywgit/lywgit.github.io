@@ -8,7 +8,7 @@ I started learning Backend knowledge on [Boot.dev](https://www.boot.dev) a while
 
 My site was originally generated using [Jekyll](https://jekyllrb.com), and I have no problem with it except I know nothing about Ruby on which Jekyll was built. I am well aware that it is the content of a site that matters, not the tool that builds it, but it just feel better to (at least potentially) be able to understand what's going on under the hood. Hugo was based on Go, and I like Go.
 
-Like Jekyll, Hugo comes with a lot of themes from the community and they can be found under this [theme site](https://themes.gohugo.io/). It took me some time to goof around before settling down on the [Congo](https://github.com/jpanther/congo) theme. Here's what works for me:
+Like Jekyll, Hugo comes with a lot of themes from the community and they can be found under this [theme site](https://themes.gohugo.io/). It took me some time to play around the demos before settling down on the [Congo](https://github.com/jpanther/congo) theme. Here's what works for me:
 
 - The simple but enough appearance. Check out Congo's [demo](https://jpanther.github.io/congo/) site.
 - The [repository](https://github.com/jpanther/congo) is highly rated (1.5k at the time of this post), and is actively maintained.
@@ -19,5 +19,6 @@ Like Jekyll, Hugo comes with a lot of themes from the community and they can be 
 
 To get a Hugo site up and running locally is simple. To customize stuffs and serve it on a Github page is harder, but not a problem if you are a developer. The experience might not be smooth if you are new to programming and Github (I remember the same when I first used Jekyll), but the docs are there to help. So far so good.
 
+2025-08-07: Here is my note on [setting up Hugo & Congo](2025-08-07-setup-hugo-congo).
 
 {{< katex >}}
