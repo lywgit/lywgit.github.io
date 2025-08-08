@@ -38,23 +38,19 @@ I [installed Hugo](https://gohugo.io/installation/) with `homebrew`.
 
 ## Some Tips
 
-**Site configurations are in `config/_default/` folder**
+1. **Site configurations are in `config/_default/` folder**:
+    - `hugo.toml`: basic setting
+    - `language.en.toml`: site title and author information 
+    - `menu.en.toml`: navigation bar items
+    - `params.toml`: customize site appearance such as color scheme, article information
+    - `taxonomies.toml`: enable tags for example by adding a line `tags = 'tags'` to this file
+2. **Write your posts and pages in the `content/` folder**
+    - Hugo is a static site generator and the `content` directory is like the root of your site.
+    - A post can be a single markdown file or a bundle where you put a index.md and associated assets images together under a directory.
+    - Read more about Page bundle [here](https://gohugo.io/content-management/page-bundles/). 
+3. **Site favicon goes to the `static/` folder** 
+    - See the [document](https://jpanther.github.io/congo/docs/partials/#favicons)
+4. **Hugo builds generate your web site into the `public` folder**
+    - You should not use this folder.
 
-Some useful ones:
-- `hugo.toml`: basic setting
-- `language.en.toml`: site title and author information 
-- `menu.en.toml`: navigation bar items
-- `params.toml`: customize site appearance such as color scheme, article information
-- `taxonomies.toml`: enable tags for example by adding a line `tags = 'tags'` to this file
-
-
-**Your content should be in `content/` folder**
-Read more about [Page bundle](https://gohugo.io/content-management/page-bundles/).
-
-
-**Site favicon should be in `static/` folder** 
-See the [document](https://jpanther.github.io/congo/docs/partials/#favicons)
-
-**Hugo build the site into `public` folder**
-And you probably should never edit it. 
     
