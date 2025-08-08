@@ -4,9 +4,11 @@ title = 'Setting up Hugo & Congo'
 tags = ['tech', 'hugo']
 +++
 
-I mainly follow the steps in the [Congo theme installation](https://jpanther.github.io/congo/docs/installation/) documentation to setup and configure the site. I also refer to [Hugo Getting started](https://gohugo.io/getting-started/) document.
+I mainly follow the steps in the [Congo theme installation](https://jpanther.github.io/congo/docs/installation/) document to setup and configure the site. I also refer to [Hugo Getting started](https://gohugo.io/getting-started/) document.
 
-Here are the main steps I have taken to set up this site:
+Here are the main steps I have taken to set up this site. You will need  `git` and `hugo` ready. 
+I [installed Hugo](https://gohugo.io/installation/) with `homebrew`.
+
 1. Initialize a local repository to work on
     ```bash
     # Create a base hugo directory structure
