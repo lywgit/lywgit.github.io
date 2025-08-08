@@ -1,0 +1,4 @@
+.prose code::before,
+.prose code::after {
+    content: none;
+}
