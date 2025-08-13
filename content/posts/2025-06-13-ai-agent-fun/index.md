@@ -1,7 +1,7 @@
 +++
 date = '2025-06-13T00:00:00+08:00'
 title = 'AI Agent Fun'
-tags = ["tech", "ai-agent", 'zh']
+tags = ["tech", "ai agent", 'zh']
 +++
 
 近期在使用 [Boot.dev](https://www.boot.dev/) 學習一些有興趣的主題（主要是 Go 和後端知識），上週注意到這個新推出的小課程："[Build an AI Agent in Python](https://www.boot.dev/courses/build-ai-agent-python)"，忍不住開始玩，結果變成我在 boot.dev 第一個完成的 Lesson （完成的 code [github link](https://github.com/lywgit/bootdev_ai_agent_in_python)，簡單加上 readme）。
