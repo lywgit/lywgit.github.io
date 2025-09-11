@@ -6,7 +6,7 @@ tags = ['ml', 'zh']
 
 ## 強化式學習
 
-說到機器學習領域中的 「強化式學習」（Reinforcement Learning），首先讓人想到的也許是 DeepMind 在 Atari Game 及 AlphaGo 上的成功，或者是 Agent + Environment 的經典框架，又或者是是 Yann LeCun 2016 年有名的烤蛋糕比喻：
+說到機器學習領域中的 「強化式學習」（Reinforcement Learning），首先讓人想到的也許是 DeepMind 在 Atari Game 及 AlphaGo 上的成功，或者是 Agent + Environment 的經典框架，又或者是 Yann LeCun 2016 年有名的烤蛋糕比喻：
 
 > If intelligence is a cake, the bulk of the cake is unsupervised learning, the icing on the cake is supervised learning, and the cherry on the cake is reinforcement learning (RL).” 
 >
@@ -100,7 +100,11 @@ LeCun 關於三種機器學習方式的蛋糕比喻提醒了我關於效率面�
 由於預訓練並沒有針對任何特定功能性的任務，接著需再以高品質的問答資料集進行監督式學習微調語言模型，讓模型能夠學習如何生成有用的、符合指令的回答，要求模型學會正確的預測任務目標：專注於「應答」。
 
 ### 人類回饋強化學習 Reinforcement Learning with Human Feedback
-高品質問答資料集有限，也難以涵蓋各式各樣的情境跟細節，最後再以強化式學習的方法微調模型讓產生的回答更符合人類的偏好與價值觀。實務上的做法會先以人類偏好的訓練資料集訓練出一個能夠針對一段文字給出 reward 的獎勵模型（這個模型能評斷一段文字是否符合人類偏好）。接著再讓 LLM 作為代理人，以獎勵模型為環境，讓 LLM 與獎勵模型互動，優化自己的策略（action = choose next token）。當 LLM 能產出高reward 的回答時。也代表他更符合人類的偏好了。
+高品質問答資料集有限，也難以涵蓋各式各樣的情境跟細節，最後再以強化式學習的方法微調模型讓產生的回答更符合人類的偏好與價值觀。
+
+實務上的做法會先以人類偏好的訓練資料集訓練好一個能夠針對一段文字給出 reward 的獎勵模型（這個模型能評斷一段文字是否符合人類偏好）。接著再讓 LLM 作為代理人，以獎勵模型和 prompt 為系統環境，讓 LLM 和環境互動並根據獎勵模型給出的 reward 高低來優化自己的行動策略，在這個框架中 Agent 從環境中得到的觀察就是當下的 prompt，能採取的行動就是 choose next token。
+
+當 LLM 能產出高 reward 的回答時，也代表他輸出的文字更符合人類的偏好了。
 
 
 ## People Spirit
