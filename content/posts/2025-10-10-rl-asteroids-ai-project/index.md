@@ -1,7 +1,7 @@
 +++
 date = '2025-10-10T11:25:00+08:00'
 title = '強化式學習：Asteroids-AI 專案'
-tags = ['tech', 'ml', 'zh']
+tags = ['tech', 'ml', 'project', 'zh']
 +++
 
 

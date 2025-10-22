@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T12:22:00+08:00'
-title = 'Asteroids-AI 專案：實驗歷程'
-tags = ['tech', 'ml', 'zh']
+title = 'Asteroids-AI 專案：Py-Asteroids 實驗歷程'
+tags = ['tech', 'ml', 'project', 'zh']
 +++ 
 
 
@@ -34,11 +34,11 @@ tags = ['tech', 'ml', 'zh']
 
 ## 3. 再訪 Py-Asteroids
 
-既然 BeamRider 遊戲訓練得起來，下一步思考的是由我自行包裝起來的 Py-Asteroids 環境有沒有有什麼地方和 Atari 環境有明顯差異，會不會就是原因？
+既然 BeamRider 遊戲訓練得起來，下一步思考的是由我自行包裝起來的 Py-Asteroids 環境有沒有什麼地方和 Atari 環境有明顯差異，會不會就是原因？
 
-例如，原本遊戲中有一個每秒可以得到一個基本分數的存活分數機制，這和一般的 Atari 遊戲回饋比較不同（所以後續我選擇將這個分數保持關閉），又或者會不會是 Action 的映射方式有影響（僅允許單一動作或是完整多選的排列組合？），甚至也懷疑是不是原本遊戲畫面比 Atari 遊戲大，導致經過預處理 resize 後看不見必要的特徵。不過在調整設定後嘗試模型還是沒有成功。
+例如，原本遊戲中有一個每秒可以得到一個基本分數的存活分數機制，這和一般的 Atari 遊戲回饋比較不同（所以後續我選擇將這個分數保持關閉），又或者會不會是 Action 的映射方式有影響（僅允許單一動作或是完整多選的排列組合？），甚至也懷疑是不是原本遊戲畫面比 Atari 遊戲大，導致經過預處理 resize 後看不見必要的特徵。不過在調整設定後嘗試訓練模型都還是沒有成功。
 
-排除了這些想得到的疑慮後，最有可能的因素就是遊戲本身較困難，而目前的訓練方法還不夠有效。因此我進一步在訓練程式中加入 Double Network 和 Duel Network 兩項 DQN 擴充，然而實驗結果還是沒有起色。
+排除了這些想得到的疑慮後，最有可能的因素就是遊戲本身較困難，導致目前的訓練方法還不夠有效。因此我進一步在訓練程式中加入 Double Network 和 Duel Network 兩項 DQN 擴充，然而實驗結果還是沒有起色。
 
 ![py-asteroids](run0a_3_py-asteroids-1.png "2: Py-Asteroids：嘗試調整遊戲回饋機制以及 Double Network & Duel Network 擴充。")
 
@@ -71,9 +71,9 @@ tags = ['tech', 'ml', 'zh']
 
 v1.0 程式中能變化的超參數不多，大概就是 batch size / buffer size / max step & epsilon schedule。v2.0 裡各項機制可以調整的超參數不少，我只有嘗試調整 C51 的 value 範圍，因爲直覺這有機會限制到 DQN 的學習。
 
-實驗方面，我決定擴大範圍到總共六個 Atari 遊戲來觀察 DQN 面對不同性質環境時的表現。由於從這個階段開始預設套用 Clip Reward 預處理，因此圖上分數範圍看起來會不太相同。六個 Atari 實驗的結果也有很多值得討論的地方，不過這裡僅專注在主角 Py-Asteroids 的實驗。
+實驗方面，我決定擴大範圍到總共六個 Atari 遊戲來觀察 DQN 面對不同性質環境時的表現。由於從這個階段開始預設套用 Clip Reward 預處理，因此圖上分數範圍看起來會不太相同。（Atari 實驗的結果和觀察我另行紀錄於[Rainbow DQN Atari 實驗]({{< ref "posts/2025-10-22-rl-asteroids-ai-experiments-atari" >}})一文，這裡專注於主角 Py-Asteroids 實驗）。
 
-下面兩張圖分別是 v1.0 和 v2.0 的訓練，可以看到原本 v1.0 總是訓練不起來的的情況，在 v2.0 Rainbow DQN 上場後，分數終於首次出現令人振奮的向上趨勢！
+下面兩張圖分別是 v1.0 和 v2.0 的訓練結果，可以看到原本 v1.0 總是訓練不起來的的情況，在 v2.0 Rainbow DQN 上場後，分數終於首次出現令人振奮的向上趨勢！
 
 ![](py-asteroids_1.png "5-1: Py-Asteroids：v1.0 實驗，無法有效學習。")
 
