@@ -1,7 +1,6 @@
 ---
 title: "Ask about the site"
 date: 2025-10-27T10:00:00+08:00
-draft: true
 layout: "chatbot"
 ---
 
