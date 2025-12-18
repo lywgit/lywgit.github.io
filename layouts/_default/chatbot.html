@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="max-w-full">
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+    <section class="prose mt-6 max-w-full dark:prose-invert">
+      {{ "<h4>:robot: Welcome!</h4>" | emojify }}
+      {{ partial "chatbox.html" . }}
+      {{ .Content | emojify }}
+    </section>
+
+    <footer class="pt-8">
+      {{ partial "author.html" . }}
+      {{ partial "sharing-links.html" . }}
+    </footer>
+
+  </article>
+{{ end }}
